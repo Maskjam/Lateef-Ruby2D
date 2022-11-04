@@ -189,3 +189,51 @@ Received Import Request.
 Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748c37e2502e85521e0c7e2c5234dc3e') in 0.009263 seconds 
   Import took 0.014372 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 577.546699 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f42c2a14e8726b0d6f7c00847ec6c36') in 0.008342 seconds 
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.115264 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53da4e238ee29ad57c11325ea6160b9a') in 0.011144 seconds 
+  Import took 0.015854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.412175 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bc3bd3d1b3e55990fadef987ffa612') in 0.011313 seconds 
+  Import took 0.016135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603398 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91519655c8ef3bc9b355ffd4d5a99a1c') in 0.010414 seconds 
+  Import took 0.015318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.811990 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444c603653694996321c13b35227eb9b') in 0.009683 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.614160 seconds.
+  path: Assets/TreeBig2.prefab
+  artifactKey: Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeBig2.prefab using Guid(1e6641197907244838eede990e5ace5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0945d1e4fcae3a3d0f5feb56257d8cda') in 0.010457 seconds 
+  Import took 0.015249 seconds .
+
