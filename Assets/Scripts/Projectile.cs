@@ -14,13 +14,13 @@ public class Projectile : MonoBehaviour
 
     public void Launch(Vector2 direction, float force)
     {
-    rigidbody2d.AddForce(direction * force);
+        rigidbody2d.AddForce(direction * force);
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Projectile Collision with " + other.gameObject);
-    Destroy(gameObject);
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

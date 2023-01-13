@@ -3181,8 +3181,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035525696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -0.62, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0.4561, y: -0.6677, z: 0}
+  m_LocalScale: {x: 1.5373268, y: 1.4253676, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -3202,6 +3202,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 4047248298982704605, guid: d0090255cd9cc44deb54900f2cef0d6b, type: 3}
 --- !u!50 &1035525700
 Rigidbody2D:
   serializedVersion: 4
@@ -21745,12 +21746,20 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2516608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.088433
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.98
+      value: -5.6579
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.2133
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.z
