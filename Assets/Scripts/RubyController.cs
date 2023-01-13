@@ -25,7 +25,7 @@ public class RubyController : MonoBehaviour
     public GameObject projectilePrefab;
     
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
