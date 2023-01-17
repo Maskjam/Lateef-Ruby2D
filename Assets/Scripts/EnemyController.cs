@@ -13,7 +13,8 @@ public class EnemyController : MonoBehaviour
     int direction = 1;
     
     Animator animator;
-    
+    bool broken = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,10 +70,11 @@ public class EnemyController : MonoBehaviour
         {
             player.ChangeHealth(-1);
         }
-        public void Fix ()
-        {
-           broken = false;
-           rigidbody2D.simulated = false;
-        }
+    }
+    public void Fix ()
+    {
+        broken = false;
+        rigidbody2D.simulated = false;
+        animator.SetTrigger("Fixed");
     }
 }
