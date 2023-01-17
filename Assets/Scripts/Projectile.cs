@@ -20,12 +20,12 @@ public class Projectile : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController e = other.collider.GetComponent<EnemyController>();
-    if (e != null)
-    {
-        e.Fix();
-    }
-    
-    Destroy(gameObject);
+        if (e != null)
+        {
+            e.Fix();
+        }
+        
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

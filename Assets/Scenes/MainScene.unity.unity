@@ -3115,7 +3115,7 @@ GameObject:
   - component: {fileID: 1035525700}
   - component: {fileID: 1035525701}
   - component: {fileID: 1035525702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21755,11 +21755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.6579
+      value: -4.7
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2133
+      value: 2.56
       objectReference: {fileID: 0}
     - target: {fileID: 4110999233067564547, guid: c1109bb69cb0f43e4976d08b467a2179, type: 3}
       propertyPath: m_LocalPosition.z
