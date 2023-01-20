@@ -2,29 +2,29 @@ Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.5.1 (Build 21G83)
-Darwin version:          21.6.0
+macOS version:           Version 11.2.1 (Build 20D74)
+Darwin version:          20.3.0
 Architecture:            x86_64
 Running under Rosetta:   NO
-Available memory:        8192 MB
+Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+/Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D
+/Users/game1-22/Desktop/My project 08-59-24-892
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49266
-Successfully changed project path to: /Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D
-/Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D
+50833
+Successfully changed project path to: /Users/game1-22/Desktop/My project 08-59-24-892
+/Users/game1-22/Desktop/My project 08-59-24-892
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,108 +54,105 @@ Successfully changed project path to: /Users/yusefnelson/Desktop/Lateef-Ruby2D/L
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 275.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D/Assets
+[Subsystems] Discovering subsystems at path /Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-22/Desktop/My project 08-59-24-892/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+iMac preferred device: AMD Radeon Pro 5500 XT (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Graphics 6100 (low power)
-Using device Intel(R) Iris(TM) Graphics 6100 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+0: AMD Radeon Pro 5500 XT (high power)
+Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56382
+Mono path[0] = '/Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004482 seconds.
+Register platform support module: /Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000855 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 728.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.097 seconds
+- Completed reload, in  0.639 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7098ms)
-		BeginReloadAssembly (954ms)
+	ReloadAssembly (639ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (4523ms)
-			LoadAssemblies (958ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1418ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (381ms)
-			SetupLoadedEditorAssemblies (2245ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (94ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (729ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (1058ms)
-				ProcessInitializeOnLoadMethodAttributes (356ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026117 seconds.
+Registered in 0.003003 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yusefnelson/Desktop/Lateef-Ruby2D/Lateef-Ruby2D/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game1-22/Desktop/My project 08-59-24-892/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game1-22/Desktop/My project 08-59-24-892/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 255.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.336 seconds
+- Completed reload, in  1.130 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5340ms)
-		BeginReloadAssembly (462ms)
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (113ms)
-		EndReloadAssembly (4389ms)
-			LoadAssemblies (411ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1352ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (424ms)
-			SetupLoadedEditorAssemblies (2124ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (256ms)
-				BeforeProcessingInitializeOnLoad (273ms)
-				ProcessInitializeOnLoadAttributes (1357ms)
-				ProcessInitializeOnLoadMethodAttributes (228ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
-Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Launching external process: /Users/game1-22/Desktop/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4147 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (117.4 KB). Loaded Objects now: 4603.
-Memory consumption went from 266.1 MB to 266.0 MB.
-Total: 13.684735 ms (FindLiveObjects: 1.109730 ms CreateObjectMapping: 1.086155 ms MarkObjects: 11.316265 ms  DeleteObjects: 0.171003 ms)
+Unloading 4111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (117.0 KB). Loaded Objects now: 4568.
+Memory consumption went from 266.5 MB to 266.4 MB.
+Total: 3.142422 ms (FindLiveObjects: 0.273412 ms CreateObjectMapping: 0.267941 ms MarkObjects: 2.512975 ms  DeleteObjects: 0.087341 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,22 +165,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 48.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.5 KB). Loaded Objects now: 4603.
-Memory consumption went from 182.8 MB to 182.7 MB.
-Total: 16.982074 ms (FindLiveObjects: 0.919314 ms CreateObjectMapping: 1.109205 ms MarkObjects: 14.581826 ms  DeleteObjects: 0.356993 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 7631.199155 seconds.
+  path: Assets/E.png
+  artifactKey: Guid(e2631a19bfd4b4d328617f8c2c0b3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/E.png using Guid(e2631a19bfd4b4d328617f8c2c0b3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1858a28ced09039baf8143f3410bbe7a') in 0.773164 seconds 
