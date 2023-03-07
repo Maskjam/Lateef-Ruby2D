@@ -24,13 +24,24 @@ public class RubyController : MonoBehaviour
 
     public GameObject projectilePrefab;
     
-    // Start is called before the first frame update
+    AudioSource audioSource;
+
+    public AudioClip throwSound;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         
         currentHealth = maxHealth;
+
+        audioSource= GetComponent<AudioSource>();
+    }
+
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     // Update is called once per frame
@@ -60,6 +71,7 @@ public class RubyController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.C))
             {
                 Launch();
+
             } 
             if (Input.GetKeyDown(KeyCode.X))
            {
@@ -110,6 +122,7 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
+        PlaySound(throwSound);
     }
 
 }
