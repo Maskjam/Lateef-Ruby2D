@@ -8,6 +8,7 @@ public class RubyController : MonoBehaviour
     
     public int maxHealth = 5;
     public float timeInvincible = 2.0f;
+    public Transform respawnlol;
 
     public int health { get { return currentHealth; }}
     int currentHealth;
@@ -110,9 +111,16 @@ public class RubyController : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
         }
+
+       
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+
+        if(currentHealth == 0)
+        {
+            Respawnlol();
+        }
     }
     void Launch()
     {
@@ -123,6 +131,12 @@ public class RubyController : MonoBehaviour
 
         animator.SetTrigger("Launch");
         PlaySound(throwSound);
+    }
+
+    void Respawnlol()
+    {
+        ChangeHealth(maxHealth);
+        transform.position = respawnlol.position;
     }
 
 }
