@@ -20,10 +20,16 @@ public class Projectile : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController e = other.collider.GetComponent<EnemyController>();
+        NonPlayerCharacter npc = other.collider.GetComponent<NonPlayerCharacter>();
         if (e != null)
         {
             e.Fix();
         }
+        if(npc != null)
+        {
+            npc.DisplayDialog();
+        }
+        
         
         Destroy(gameObject);
     }
